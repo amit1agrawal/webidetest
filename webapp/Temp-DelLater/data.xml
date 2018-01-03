@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xml:base="https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/">
+   <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS</id>
+   <title type="text">BolDocHdrS</title>
+   <updated>2017-11-13T13:52:29Z</updated>
+   <author>
+      <name />
+   </author>
+   <link href="BolDocHdrS" rel="self" title="BolDocHdrS" />
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('1')</id>
+      <title type="text">BolDocHdrS('1')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('1')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('1')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('1')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>1</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>SEA LION</d:VsslName>
+            <d:Sdwt>300180.00</d:Sdwt>
+            <d:Grt>160889.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0005</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>113</d:Agent>
+            <d:AgentName>CNPC</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-09T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-09T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-09T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL1</d:Lvl>
+            <d:Status>A</d:Status>
+            <d:ActionDate>2017-11-11T00:00:00</d:ActionDate>
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('2')</id>
+      <title type="text">BolDocHdrS('2')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('2')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('2')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('2')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>2</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>TECTUS</d:VsslName>
+            <d:Sdwt>73680.42</d:Sdwt>
+            <d:Grt>42340.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0008</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>106</d:Agent>
+            <d:AgentName>ADMA</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-09T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-09T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-09T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL1</d:Lvl>
+            <d:Status>A</d:Status>
+            <d:ActionDate>2017-11-11T00:00:00</d:ActionDate>
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('3')</id>
+      <title type="text">BolDocHdrS('3')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('3')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('3')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('3')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>3</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-10-29T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>33</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL2</d:Lvl>
+            <d:Status>A</d:Status>
+            <d:ActionDate>2017-11-11T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-11T00:00:00</d:CreatedOn>
+            <d:CreatedBy>CT82798</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('4')</id>
+      <title type="text">BolDocHdrS('4')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('4')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('4')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('4')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>4</d:BolSerial>
+            <d:TotLton>4571.65</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-09T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-09T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-09T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('5')</id>
+      <title type="text">BolDocHdrS('5')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('5')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('5')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('5')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>5</d:BolSerial>
+            <d:TotLton>197.95</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-09T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-09T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-09T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('6')</id>
+      <title type="text">BolDocHdrS('6')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('6')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('6')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('6')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>6</d:BolSerial>
+            <d:TotLton>9.84</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0300</d:Terminal>
+            <d:TerminalDesc>MUBARRAZ TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('7')</id>
+      <title type="text">BolDocHdrS('7')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('7')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('7')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('7')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>7</d:BolSerial>
+            <d:TotLton>66.81</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>SEASCOUT</d:VsslName>
+            <d:Sdwt>103667.00</d:Sdwt>
+            <d:Grt>57301.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0006</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('8')</id>
+      <title type="text">BolDocHdrS('8')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('8')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('8')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('8')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>8</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('9')</id>
+      <title type="text">BolDocHdrS('9')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('9')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('9')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('9')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>9</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('10')</id>
+      <title type="text">BolDocHdrS('10')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('10')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('10')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('10')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>10</d:BolSerial>
+            <d:TotLton>9.84</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-10-31T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('11')</id>
+      <title type="text">BolDocHdrS('11')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('11')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('11')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('11')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>11</d:BolSerial>
+            <d:TotLton>8.72</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-31T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('12')</id>
+      <title type="text">BolDocHdrS('12')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('12')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('12')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('12')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>12</d:BolSerial>
+            <d:TotLton>4.34</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-31T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('13')</id>
+      <title type="text">BolDocHdrS('13')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('13')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('13')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('13')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>13</d:BolSerial>
+            <d:TotLton>436868.27</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>ARIADNI</d:VsslName>
+            <d:Sdwt>163469.41</d:Sdwt>
+            <d:Grt>84716.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0010</d:Vssl>
+            <d:BolDate>2017-10-31T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('14')</id>
+      <title type="text">BolDocHdrS('14')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('14')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('14')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('14')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>14</d:BolSerial>
+            <d:TotLton>2.29</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>101</d:Agent>
+            <d:AgentName>Bike &amp; More Inc</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('15')</id>
+      <title type="text">BolDocHdrS('15')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('15')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('15')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('15')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>15</d:BolSerial>
+            <d:TotLton>4.36</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL1</d:Lvl>
+            <d:Status>R</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('16')</id>
+      <title type="text">BolDocHdrS('16')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('16')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('16')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('16')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>16</d:BolSerial>
+            <d:TotLton>44.29</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>A</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('17')</id>
+      <title type="text">BolDocHdrS('17')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('17')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('17')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('17')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>17</d:BolSerial>
+            <d:TotLton>348.86</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-31T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL1</d:Lvl>
+            <d:Status>R</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('18')</id>
+      <title type="text">BolDocHdrS('18')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('18')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('18')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('18')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>18</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>115</d:Agent>
+            <d:AgentName>CEFC</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>A</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('19')</id>
+      <title type="text">BolDocHdrS('19')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('19')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('19')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('19')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>19</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-30T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-10T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-10T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89251</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('20')</id>
+      <title type="text">BolDocHdrS('20')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('20')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('20')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('20')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>20</d:BolSerial>
+            <d:TotLton>232.23</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>TECTUS</d:VsslName>
+            <d:Sdwt>73680.42</d:Sdwt>
+            <d:Grt>42340.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0008</d:Vssl>
+            <d:BolDate>2017-11-01T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-12T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-12T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-12T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-12T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-12T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('21')</id>
+      <title type="text">BolDocHdrS('21')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('21')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('21')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('21')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>21</d:BolSerial>
+            <d:TotLton>427.58</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-11-12T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-12T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-12T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-12T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-12T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-12T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('22')</id>
+      <title type="text">BolDocHdrS('22')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('22')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('22')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('22')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>22</d:BolSerial>
+            <d:TotLton>34.45</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>104</d:Agent>
+            <d:AgentName>ADNOC</d:AgentName>
+            <d:SrNo>09</d:SrNo>
+            <d:LodComncdAt>2017-11-14T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-15T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-17T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('23')</id>
+      <title type="text">BolDocHdrS('23')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('23')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('23')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('23')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>23</d:BolSerial>
+            <d:TotLton>6.89</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>104</d:Agent>
+            <d:AgentName>ADNOC</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-14T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-15T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-16T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('24')</id>
+      <title type="text">BolDocHdrS('24')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('24')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('24')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('24')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>24</d:BolSerial>
+            <d:TotLton>6.89</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>101</d:Agent>
+            <d:AgentName>Bike &amp; More Inc</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-14T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-15T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-16T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-13T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-13T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('25')</id>
+      <title type="text">BolDocHdrS('25')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('25')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('25')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('25')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>25</d:BolSerial>
+            <d:TotLton>9.85</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>SEA LION</d:VsslName>
+            <d:Sdwt>300180.00</d:Sdwt>
+            <d:Grt>160889.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0005</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>106</d:Agent>
+            <d:AgentName>ADMA</d:AgentName>
+            <d:SrNo>06</d:SrNo>
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-14T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-15T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('30')</id>
+      <title type="text">BolDocHdrS('30')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('30')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('30')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('30')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>30</d:BolSerial>
+            <d:TotLton>3270.85</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-13T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-13T00:00:00</d:CreatedOn>
+            <d:CreatedBy>FIORI_ADMIN</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('31')</id>
+      <title type="text">BolDocHdrS('31')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('31')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('31')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('31')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>31</d:BolSerial>
+            <d:TotLton>145.76</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('32')</id>
+      <title type="text">BolDocHdrS('32')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('32')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('32')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('32')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>32</d:BolSerial>
+            <d:TotLton>442.43</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDIC FIGHTER</d:VsslName>
+            <d:Sdwt>150907.00</d:Sdwt>
+            <d:Grt>79669.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0004</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>121</d:Agent>
+            <d:AgentName>Shell</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('34')</id>
+      <title type="text">BolDocHdrS('34')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('34')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('34')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('34')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>34</d:BolSerial>
+            <d:TotLton>5756.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>GRACE RIVER</d:VsslName>
+            <d:Sdwt>49206.56</d:Sdwt>
+            <d:Grt>44673.00</d:Grt>
+            <d:Terminal>0400</d:Terminal>
+            <d:TerminalDesc>ZIRKU TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0003</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>114</d:Agent>
+            <d:AgentName>JODCO</d:AgentName>
+            <d:SrNo>2</d:SrNo>
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('50')</id>
+      <title type="text">BolDocHdrS('50')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('50')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('50')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('50')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>50</d:BolSerial>
+            <d:TotLton>760.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>SEA LION</d:VsslName>
+            <d:Sdwt>300180.00</d:Sdwt>
+            <d:Grt>160889.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0005</d:Vssl>
+            <d:BolDate>2017-11-12T00:00:00</d:BolDate>
+            <d:Agent>104</d:Agent>
+            <d:AgentName>ADNOC</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-13T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-13T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89057</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('55')</id>
+      <title type="text">BolDocHdrS('55')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('55')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('55')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('55')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>55</d:BolSerial>
+            <d:TotLton>190.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>TECTUS</d:VsslName>
+            <d:Sdwt>73680.42</d:Sdwt>
+            <d:Grt>42340.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0008</d:Vssl>
+            <d:BolDate>2017-11-12T00:00:00</d:BolDate>
+            <d:Agent>104</d:Agent>
+            <d:AgentName>ADNOC</d:AgentName>
+            <d:SrNo>2</d:SrNo>
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-13T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-13T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89057</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('90')</id>
+      <title type="text">BolDocHdrS('90')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('90')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('90')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('90')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>90</d:BolSerial>
+            <d:TotLton>0.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-10-29T00:00:00</d:BolDate>
+            <d:Agent>111</d:Agent>
+            <d:AgentName>Total</d:AgentName>
+            <d:SrNo>90</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>LVL2</d:Lvl>
+            <d:Status>A</d:Status>
+            <d:ActionDate>2017-11-11T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-11T00:00:00</d:CreatedOn>
+            <d:CreatedBy>CT82798</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('100')</id>
+      <title type="text">BolDocHdrS('100')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('100')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('100')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('100')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>100</d:BolSerial>
+            <d:TotLton>157.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>BLUE ANGEL</d:VsslName>
+            <d:Sdwt>44240.24</d:Sdwt>
+            <d:Grt>25457.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0002</d:Vssl>
+            <d:BolDate>2017-10-17T00:00:00</d:BolDate>
+            <d:Agent>113</d:Agent>
+            <d:AgentName>CNPC</d:AgentName>
+            <d:SrNo>111</d:SrNo>
+            <d:LodComncdAt>2017-11-08T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-09T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-09T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('123')</id>
+      <title type="text">BolDocHdrS('123')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('123')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('123')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('123')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>123</d:BolSerial>
+            <d:TotLton>209.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NEW ACCORD</d:VsslName>
+            <d:Sdwt>108070.19</d:Sdwt>
+            <d:Grt>61736.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0009</d:Vssl>
+            <d:BolDate>2017-11-10T00:00:00</d:BolDate>
+            <d:Agent>111</d:Agent>
+            <d:AgentName>Total</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-14T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-12T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-12T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-12T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89057</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('445')</id>
+      <title type="text">BolDocHdrS('445')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('445')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('445')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('445')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>445</d:BolSerial>
+            <d:TotLton>98.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>TECTUS</d:VsslName>
+            <d:Sdwt>73680.42</d:Sdwt>
+            <d:Grt>42340.00</d:Grt>
+            <d:Terminal>0400</d:Terminal>
+            <d:TerminalDesc>ZIRKU TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0008</d:Vssl>
+            <d:BolDate>2017-11-13T00:00:00</d:BolDate>
+            <d:Agent>103</d:Agent>
+            <d:AgentName>Supreme Petroleum Council</d:AgentName>
+            <d:SrNo />
+            <d:LodComncdAt>2017-11-13T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-13T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-13T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-13T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-13T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN86923</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('555')</id>
+      <title type="text">BolDocHdrS('555')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('555')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('555')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('555')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>555</d:BolSerial>
+            <d:TotLton>884.40</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>SEA LION</d:VsslName>
+            <d:Sdwt>300180.00</d:Sdwt>
+            <d:Grt>160889.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0005</d:Vssl>
+            <d:BolDate>2017-11-09T00:00:00</d:BolDate>
+            <d:Agent>111</d:Agent>
+            <d:AgentName>Total</d:AgentName>
+            <d:SrNo>10</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-11T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-11T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('666')</id>
+      <title type="text">BolDocHdrS('666')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('666')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('666')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('666')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>666</d:BolSerial>
+            <d:TotLton>4807.69</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-11-09T00:00:00</d:BolDate>
+            <d:Agent>106</d:Agent>
+            <d:AgentName>ADMA</d:AgentName>
+            <d:SrNo>1</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-11T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-11T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>S</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('777')</id>
+      <title type="text">BolDocHdrS('777')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('777')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('777')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('777')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>777</d:BolSerial>
+            <d:TotLton>11.00</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>02</d:PrdctType>
+            <d:PrdctTypeDesc>GAS</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-11-09T00:00:00</d:BolDate>
+            <d:Agent>112</d:Agent>
+            <d:AgentName>BP</d:AgentName>
+            <d:SrNo>11</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-11T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-11T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl>INSP</d:Lvl>
+            <d:Status>S</d:Status>
+            <d:ActionDate>2017-11-11T00:00:00</d:ActionDate>
+            <d:CreatedOn>2017-11-11T00:00:00</d:CreatedOn>
+            <d:CreatedBy>VN89057</d:CreatedBy>
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+   <entry>
+      <id>https://webidetesting4471038-a18000e3e.dispatcher.hana.ondemand.com/sap/opu/odata/sap/ZBOL_SRV/BolDocHdrS('1000')</id>
+      <title type="text">BolDocHdrS('1000')</title>
+      <updated>2017-11-13T13:52:29Z</updated>
+      <category term="ZBOL_SRV.BolDocHdr" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+      <link href="BolDocHdrS('1000')" rel="self" title="BolDocHdr" />
+      <link href="BolDocHdrS('1000')/Certificate" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Certificate" type="application/atom+xml;type=feed" title="Certificate" />
+      <link href="BolDocHdrS('1000')/HdrToItms" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/HdrToItms" type="application/atom+xml;type=feed" title="HdrToItms" />
+      <content type="application/xml">
+         <m:properties>
+            <d:BolSerial>1000</d:BolSerial>
+            <d:TotLton>1.10</d:TotLton>
+            <d:Carryfwd />
+            <d:DschargNo />
+            <d:VsslName>NORDMILLENIUM</d:VsslName>
+            <d:Sdwt>296669.00</d:Sdwt>
+            <d:Grt>157093.00</d:Grt>
+            <d:Terminal>0200</d:Terminal>
+            <d:TerminalDesc>DAS TERMINAL</d:TerminalDesc>
+            <d:PrdctType>01</d:PrdctType>
+            <d:PrdctTypeDesc>CRUD</d:PrdctTypeDesc>
+            <d:Vssl>0001</d:Vssl>
+            <d:BolDate>2017-10-29T00:00:00</d:BolDate>
+            <d:Agent>104</d:Agent>
+            <d:AgentName>ADNOC</d:AgentName>
+            <d:SrNo>22</d:SrNo>
+            <d:LodComncdAt>2017-11-10T00:00:00</d:LodComncdAt>
+            <d:LodCompltAt>2017-11-10T00:00:00</d:LodCompltAt>
+            <d:VsslSldAt>2017-11-10T00:00:00</d:VsslSldAt>
+            <d:PrvsBolNo />
+            <d:Lvl />
+            <d:Status>A</d:Status>
+            <d:ActionDate m:null="true" />
+            <d:CreatedOn m:null="true" />
+            <d:CreatedBy />
+            <d:LastChnge m:null="true" />
+            <d:ChangedBy />
+            <d:Return />
+            <d:DocType />
+         </m:properties>
+      </content>
+   </entry>
+</feed>

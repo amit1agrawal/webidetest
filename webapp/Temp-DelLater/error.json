@@ -1,0 +1,37 @@
+{
+	"error": {
+		"code": "SY/530",
+		"message": {
+			"lang": "en",
+			"value": "An exception was raised."
+		},
+		"innererror": {
+			"application": {
+				"component_id": "",
+				"service_namespace": "/SAP/",
+				"service_id": "ZBOL_SRV",
+				"service_version": "0001"
+			},
+			"transactionid": "9E89516E31B70000E005A0441FCBA139",
+			"timestamp": "20171112102112.5034810",
+			"Error_Resolution": {
+				"SAP_Transaction": "Run transaction /IWFND/ERROR_LOG on SAP Gateway hub system and search for entries with the timestamp above for more details",
+				"SAP_Note": "See SAP Note 1797736 for error analysis (https://service.sap.com/sap/support/notes/1797736)",
+				"Batch_SAP_Note": "See SAP Note 1869434 for details about working with $batch (https://service.sap.com/sap/support/notes/1869434)"
+			},
+			"errordetails": [{
+				"code": "",
+				"message": "Bol Document posting period is wrong !",
+				"propertyref": "",
+				"severity": "error",
+				"target": ""
+			}, {
+				"code": "/IWBEP/CX_MGW_BUSI_EXCEPTION",
+				"message": "An exception was raised",
+				"propertyref": "",
+				"severity": "error",
+				"target": ""
+			}]
+		}
+	}
+}

@@ -1,0 +1,232 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:semantic="sap.m.semantic" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="com.spc.fiori.controller.AddNew"
+	class="sapUiSizeCompact">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}"
+		busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+			<VBox class="sapUiSmallMargin">
+				<f:Form id="FormChange480_12120" editable="true">
+					<f:title>
+						<core:Title text="New Bill of Lading"/>
+					</f:title>
+					<f:layout>
+						<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0"
+							emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="1" singleContainerFullSize="false"/>
+					</f:layout>
+					<f:formContainers>
+						<f:FormContainer title="BoL Information">
+							<f:formElements>
+								<f:FormElement label="Bol Serial No" width="auto">
+									<f:fields>
+										<Input value="{BolSerial}" id="idBolSerial" liveChange="resetValueState" required="true" type="Number" width="60%"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Previous BoL No">
+									<f:fields>
+										<Input value="{PrvsBolNo}" showValueHelp="true" id="idPrevBolSerial" type="Number" valueHelpRequest="handleBoLValueHelp" width="60%"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Serial No" width="auto">
+									<f:fields>
+										<Input value="{SrNo}" id="idSerialNo" liveChange="resetValueState" type="Number" required="false" width="60%"/>
+									</f:fields>
+									<CheckBox text="Carry Forward" valueState="Warning" selected="{Carryfwd}" select="onCheckBoxClick" id="ChkboxId"/>
+								</f:FormElement>
+								<f:FormElement label="Bol Date" width="auto">
+									<f:fields>
+										<!--<Input enabled="true"  value="{path:'bolSysDate>/bolSysDate', type:'sap.ui.model.type.DateTime', formatOptions: { style: 'medium', strictParsing: true}}"/>-->
+										<DateTimePicker value="{BolDate}" valueFormat="yyyy-MM-ddTHH:mm:ss" displayFormat="" change="resetValueState" id="idBolDate" required="true"
+											width="60%"/>
+									</f:fields>
+								</f:FormElement>
+							</f:formElements>
+						</f:FormContainer>
+						<f:FormContainer title="Vessel Information">
+							<f:formElements>
+								<f:FormElement label="Vessel">
+									<f:fields>
+										<Input value="{VsslName}" showValueHelp="true" valueHelpRequest="handleVesselValueHelp" id="idVessel" liveChange="resetValueState"
+											required="true" width="60%" showSuggestion="true" suggestionItems="{default>/SH_VSSLSet}"
+											suggestionItemSelected="onVesselSuggestedItemSelected" suggest="handleVesselSuggest">
+											<suggestionItems>
+												<core:ListItem text="{default>Ltext}" additionalText="{default>ShipCode}"/>
+											</suggestionItems>
+										</Input>
+										<!--<Input value="{VsslName}" showValueHelp="true" valueHelpRequest="handleVesselValueHelp" id="idVessel"  liveChange="resetValueState" 
+								    	required="true" width="60%">
+									</Input>-->
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Gross Registered Tonnage">
+									<f:fields>
+										<Input value="{Grt}" editable="false" required="true" width="60%" id="grtregId"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Summer DeadWeight">
+									<f:fields>
+										<Input value="{Sdwt}" editable="false" required="true" width="60%" id="sumdedId"/>
+									</f:fields>
+								</f:FormElement>
+								
+								<f:FormElement label="Loading Commenced At">
+									<f:fields>
+										<DateTimePicker value="{LodComncdAt}" valueFormat="yyyy-MM-ddTHH:mm:ss" displayFormat="" change="resetValueState" id="idCommencedAt"
+											required="true" width="60%"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Loading Completed At">
+									<f:fields>
+										<DateTimePicker value="{LodCompltAt}" valueFormat="yyyy-MM-ddTHH:mm:ss" displayFormat="" change="resetValueStateLdCmpltAt"
+											id="idCompletedAt" required="true" width="60%"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Vessel Sealed At">
+									<f:fields>
+										<DateTimePicker value="{VsslSldAt}" valueFormat="yyyy-MM-ddTHH:mm:ss" displayFormat="" change="resetValueStateSldAt" id="idSealedAt"
+											required="true" width="60%"/>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Agent">
+									<f:fields>
+										<!--<Input value=" {AgentName} {Agent}" showValueHelp="true" -->
+										<Input value="{AgentName}" showValueHelp="true" valueHelpRequest="handleAgentNoValueHelp" id="idAgent" liveChange="resetValueState"
+											required="true" width="60%" showSuggestion="true" suggestionItems="{default>/SH_AGENTSet}"
+											suggestionItemSelected="onAgentSuggestedItemSelected">
+											<suggestionItems>
+												<core:ListItem text="{default>NameOrg1}" additionalText="{default>Partner}"/>
+											</suggestionItems>
+										</Input>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="ProductType">
+									<f:fields>
+										<!--<Input value=" {PrdctTypeDesc} {PrdctType}" showValueHelp="true" -->
+										<Input value="{PrdctTypeDesc}" showValueHelp="true" valueHelpRequest="handleProductTypeValueHelp" id="idProductType"
+											liveChange="resetValueState" required="true" width="60%" showSuggestion="true" suggestionItems="{default>/SH_PROD_TYPESet}"
+											suggestionItemSelected="onProdTypeSuggestedItemSelected">
+											<suggestionItems>
+												<core:ListItem text="{default>PrdctTypeDesc}" additionalText="{default>PrdctType}"/>
+											</suggestionItems>
+										</Input>
+									</f:fields>
+								</f:FormElement>
+								<f:FormElement label="Terminal">
+									<f:fields>
+										<!--<Input value=" {TerminalDesc} {Terminal}" showValueHelp="true" -->
+										<Input value="{TerminalDesc}" showValueHelp="true" valueHelpRequest="handleTerminalValueHelp" id="idTerminal" liveChange="resetValueState"
+											required="true" width="60%" showSuggestion="true" suggestionItems="{default>/SH_TerminalSet}"
+											suggestionItemSelected="onTerminalSuggestedItemSelected">
+											<suggestionItems>
+												<core:ListItem text="{default>TermTxt}" additionalText="{default>Term}"/>
+											</suggestionItems>
+										</Input>
+									</f:fields>
+								</f:FormElement>
+								
+							</f:formElements>
+						</f:FormContainer>
+						
+					</f:formContainers>
+				</f:Form>
+				<Table id="idHdrToItmsTable" inset="false" items="{/HdrToItms}">
+					<headerToolbar>
+						<Toolbar>
+							<Title text="Cargo Detail Information" level="H2"/>
+							<ToolbarSpacer></ToolbarSpacer>
+							<Button icon="sap-icon://add" type="Emphasized" press="handleAddItemPress"></Button>
+						</Toolbar>
+					</headerToolbar>
+					<columns>
+						<Column width="auto" id="idProductColumn">
+							<Text text="Product"/>
+						</Column>
+						<Column width="auto" id="idPartnerColumn">
+							<Text text="Partner"/>
+						</Column>
+						
+						<Column width="auto" id="idDestinationColumn">
+							<Text text="Destination"/>
+							<footer>
+								<Label text="Total"></Label>
+							</footer>
+						</Column>
+						<Column hAlign="End" width="auto" id="idBarrelColumn">
+							<Text text="Barrels"/>
+							<footer>
+								<ObjectNumber id="idNumberBarrel" number=""></ObjectNumber>
+							</footer>
+						</Column>
+						<Column hAlign="End" width="auto" id="idLTonColumn">
+							<Text text="L Tons"/>
+							<footer>
+								<ObjectNumber id="idNumberLTon" number="">
+									<!--unit="{i18n>detailLineItemWeightUnit}"-->
+								</ObjectNumber>
+							</footer>
+						</Column>
+						<Column hAlign="End" width="auto" id="idMTonColumn">
+							<Text text="M Tons"/>
+							<footer>
+								<ObjectNumber id="idNumberMTon" number=""></ObjectNumber>
+							</footer>
+						</Column>
+						<Column hAlign="End" width="auto" id="idDensityColumn">
+							<Text text="Density"/>
+							<!--<footer> 
+					<ObjectNumber id="idNumberDensity" number="">
+					</ObjectNumber>
+				</footer>-->
+						</Column>
+						<Column hAlign="End" width="auto" id="idAPIColumn">
+							<Text text="API"/>
+							<!--<footer> 
+					<ObjectNumber id="idNumberAPI" number="">
+					</ObjectNumber>
+				</footer>-->
+						</Column>
+						<Column hAlign="End" width="auto">
+							<Text text=""/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<!--<Text
+						text="{PrdctName} ({Prdct})" />
+					<Text
+						text="{PrtnrName} ({Prtnr})" />
+					<Text
+						text="{DestName} ({Dest})" />-->
+								<Text text="{PrdctName}"/>
+								<Text text="{PrtnrName}"/>
+								<Text text="{DestName}"/>
+								<Text text="{Barrl}"/>
+								<Text text="{LTon}"/>
+								<Text text="{MTon}"/>
+								<Text text="{Dnsty}"/>
+								<Text text="{Api}"/>
+								<Button icon="sap-icon://sys-cancel" type="Reject" tooltip="Delete Item" press="handleItemCancelPress"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+				<items/>
+			</VBox>
+			
+			<!--<footer>
+				<Bar>
+					<contentRight>
+						<Button id="request" text="Save" type="Emphasized" press="onSavePress"/>
+						<Button id="clear" text="Cancel" type="Reject" press="handleCancelPress"/>
+					</contentRight>
+				</Bar>
+			</footer>-->
+		</semantic:content>
+		<semantic:saveAction>
+			<semantic:SaveAction press="onSavePress" />
+		</semantic:saveAction>
+		<semantic:cancelAction>
+			<semantic:CancelAction press="handleCancelPress" />
+		</semantic:cancelAction>
+	</semantic:DetailPage>
+</mvc:View>

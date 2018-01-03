@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No Agent Found"
+        title="Select Agent"
+        search="handleSearch"
+        confirm="handleAgentDialogClose"
+        items="{AgentListModel>/}" >
+        <StandardListItem id="tbl"
+        
+            title="{AgentListModel>NameOrg1}"
+            description="{AgentListModel>Partner}"
+            type="Active"/>
+    </SelectDialog>
+</core:FragmentDefinition>

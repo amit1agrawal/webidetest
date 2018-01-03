@@ -1,0 +1,71 @@
+[{
+	"PrdctType": "PrdctType 1",
+	"PrdctTypeDesc": "PrdctTypeDesc 1",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%201')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 2",
+	"PrdctTypeDesc": "PrdctTypeDesc 2",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%202')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 3",
+	"PrdctTypeDesc": "PrdctTypeDesc 3",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%203')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 4",
+	"PrdctTypeDesc": "PrdctTypeDesc 4",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%204')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 5",
+	"PrdctTypeDesc": "PrdctTypeDesc 5",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%205')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 6",
+	"PrdctTypeDesc": "PrdctTypeDesc 6",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%206')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 7",
+	"PrdctTypeDesc": "PrdctTypeDesc 7",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%207')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 8",
+	"PrdctTypeDesc": "PrdctTypeDesc 8",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%208')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 9",
+	"PrdctTypeDesc": "PrdctTypeDesc 9",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%209')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}, {
+	"PrdctType": "PrdctType 10",
+	"PrdctTypeDesc": "PrdctTypeDesc 10",
+	"__metadata": {
+		"uri": "SH_PROD_TYPESet('PrdctType%2010')",
+		"type": "ZBOL_SRV.SH_PROD_TYPE"
+	}
+}]

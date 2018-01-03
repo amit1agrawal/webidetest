@@ -1,0 +1,161 @@
+[{
+	"BolSerial": "BolSerial 1",
+	"ItemNo": "ItemNo 1",
+	"Prdct": "Prdct 1",
+	"PrdctName": "PrdctName 1",
+	"Prtnr": "Prtnr 1",
+	"Dest": "Dest 1",
+	"DestName": "DestName 1",
+	"Barrl": 8809.65,
+	"LTon": 6153.07,
+	"Api": 7845.79,
+	"PrtnrName": "PrtnrName 1",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%201',ItemNo='ItemNo%201')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 2",
+	"ItemNo": "ItemNo 2",
+	"Prdct": "Prdct 2",
+	"PrdctName": "PrdctName 2",
+	"Prtnr": "Prtnr 2",
+	"Dest": "Dest 2",
+	"DestName": "DestName 2",
+	"Barrl": 2803.62,
+	"LTon": 7303.74,
+	"Api": 7734.37,
+	"PrtnrName": "PrtnrName 2",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%202',ItemNo='ItemNo%202')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 3",
+	"ItemNo": "ItemNo 3",
+	"Prdct": "Prdct 3",
+	"PrdctName": "PrdctName 3",
+	"Prtnr": "Prtnr 3",
+	"Dest": "Dest 3",
+	"DestName": "DestName 3",
+	"Barrl": 3471.71,
+	"LTon": 629.1,
+	"Api": 1507.6,
+	"PrtnrName": "PrtnrName 3",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%203',ItemNo='ItemNo%203')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 4",
+	"ItemNo": "ItemNo 4",
+	"Prdct": "Prdct 4",
+	"PrdctName": "PrdctName 4",
+	"Prtnr": "Prtnr 4",
+	"Dest": "Dest 4",
+	"DestName": "DestName 4",
+	"Barrl": 4962.32,
+	"LTon": 4260.39,
+	"Api": 8158.94,
+	"PrtnrName": "PrtnrName 4",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%204',ItemNo='ItemNo%204')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 5",
+	"ItemNo": "ItemNo 5",
+	"Prdct": "Prdct 5",
+	"PrdctName": "PrdctName 5",
+	"Prtnr": "Prtnr 5",
+	"Dest": "Dest 5",
+	"DestName": "DestName 5",
+	"Barrl": 5510.81,
+	"LTon": 7851.94,
+	"Api": 4035.17,
+	"PrtnrName": "PrtnrName 5",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%205',ItemNo='ItemNo%205')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 6",
+	"ItemNo": "ItemNo 6",
+	"Prdct": "Prdct 6",
+	"PrdctName": "PrdctName 6",
+	"Prtnr": "Prtnr 6",
+	"Dest": "Dest 6",
+	"DestName": "DestName 6",
+	"Barrl": 1536.54,
+	"LTon": 474.94,
+	"Api": 7743.34,
+	"PrtnrName": "PrtnrName 6",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%206',ItemNo='ItemNo%206')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 7",
+	"ItemNo": "ItemNo 7",
+	"Prdct": "Prdct 7",
+	"PrdctName": "PrdctName 7",
+	"Prtnr": "Prtnr 7",
+	"Dest": "Dest 7",
+	"DestName": "DestName 7",
+	"Barrl": 5674.92,
+	"LTon": 9585.44,
+	"Api": 3658.46,
+	"PrtnrName": "PrtnrName 7",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%207',ItemNo='ItemNo%207')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 8",
+	"ItemNo": "ItemNo 8",
+	"Prdct": "Prdct 8",
+	"PrdctName": "PrdctName 8",
+	"Prtnr": "Prtnr 8",
+	"Dest": "Dest 8",
+	"DestName": "DestName 8",
+	"Barrl": 1630.98,
+	"LTon": 6947.84,
+	"Api": 8763.59,
+	"PrtnrName": "PrtnrName 8",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%208',ItemNo='ItemNo%208')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 9",
+	"ItemNo": "ItemNo 9",
+	"Prdct": "Prdct 9",
+	"PrdctName": "PrdctName 9",
+	"Prtnr": "Prtnr 9",
+	"Dest": "Dest 9",
+	"DestName": "DestName 9",
+	"Barrl": 3102.45,
+	"LTon": 5631.09,
+	"Api": 8705.28,
+	"PrtnrName": "PrtnrName 9",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%209',ItemNo='ItemNo%209')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}, {
+	"BolSerial": "BolSerial 10",
+	"ItemNo": "ItemNo 10",
+	"Prdct": "Prdct 10",
+	"PrdctName": "PrdctName 10",
+	"Prtnr": "Prtnr 10",
+	"Dest": "Dest 10",
+	"DestName": "DestName 10",
+	"Barrl": 3978.7,
+	"LTon": 9597,
+	"Api": 4088.25,
+	"PrtnrName": "PrtnrName 10",
+	"__metadata": {
+		"uri": "BolDocItmS(BolSerial='BolSerial%2010',ItemNo='ItemNo%2010')",
+		"type": "ZBOL_SRV.BolDocItm"
+	}
+}]

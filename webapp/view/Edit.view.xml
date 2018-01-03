@@ -1,0 +1,285 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="com.spc.fiori.controller.Edit">
+		<Page id="page" showHeader="false">
+		<content>
+			<VBox class="sapUiSmallMargin">
+		<f:Form id="FormChange480_12120" editable="true">
+			<f:title>
+				<core:Title text="Edit Bill of Lading"/>
+			</f:title>
+			<f:layout>
+				<f:ResponsiveGridLayout labelSpanXL="4" labelSpanL="4" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="1" singleContainerFullSize="false"/>
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer title="BoL Information">
+					<f:formElements>
+						<f:FormElement label="Bol Serial No" >  <!--<ObjectAttribute text="{=parseInt(${BolSerial},10)}"/>-->
+							<f:fields>
+								<Input  value="{BolSerial}" editable="false" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Previous BoL No">
+							<f:fields>
+								<Input value="{PrvsBolNo}" showValueHelp="false" editable="true"
+									valueHelpRequest="handleBoLValueHelp" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Serial No" width="auto">
+							<f:fields>
+								<Input  value="{SrNo}" id="idSerialNo" liveChange="resetValueState" required="false" width="60%" />
+							</f:fields>
+							<CheckBox text="Carry Forward" valueState="Warning" selected="{
+								path: 'Carryfwd',
+								formatter: '.formatter.carryFwdValue'}" select="onCheckBoxClick" />
+						</f:FormElement>
+						<f:FormElement label="Bol Date" width="auto">
+							<f:fields>
+								<!--<Input enabled="false"  value="{path:'bolSysDateEdit>/bolSysDateEdit', type:'sap.ui.model.type.DateTime', formatOptions: { style: 'medium', strictParsing: true}}"/>-->
+								<DateTimePicker
+									value="{BolDate}" valueFormat="yyyy-MM-ddTHH:mm:ss" displayFormat=""
+									change="resetValueState" id="idBolDate" required="true" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						
+						
+					</f:formElements>
+				</f:FormContainer>
+				<f:FormContainer title="Vessel Information">
+					<f:formElements>
+						<f:FormElement label="Vessel Name">
+							<!--<f:fields>
+								<Input value="{Vssl}" id="name"/>
+							</f:fields>-->
+							<f:fields>
+								<!--<Input id="name" value="{VsslName}({Vssl})" showValueHelp="true" -->
+								<Input id="name" value="{VsslName}" showValueHelp="true" 
+									valueHelpRequest="handleVesselValueHelp" required="true" liveChange="resetValueState" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Gross Registered Tonnage">
+							<f:fields>
+								<Input value="{Grt}" editable="false" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Summer DeadWeight">
+							<f:fields>
+								<Input value="{Sdwt}" editable="false" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<!--<f:FormElement label="Loading Commenced At">
+							<f:fields>
+								<DatePicker
+									value="{LodComncdAt}" valueFormat="yyyy-MM-dd" 
+									change="handleChange"
+									class="sapUiSmallMarginBottom"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Loading Completed At">
+							<f:fields>
+								<DatePicker
+									value="{LodCompltAt}" valueFormat="yyyy-MM-dd" displayFormat="long"
+									change="handleChange"
+									class="sapUiSmallMarginBottom"/>
+							</f:fields>
+						</f:FormElement>-->
+						<!--<f:FormElement label="Vessel Sealed At">
+							<f:fields>
+								<DatePicker
+									value="{VsslSldAt}" valueFormat="yyyy-MM-dd" displayFormat="long"
+									change="handleChange"
+									class="sapUiSmallMarginBottom"/>
+							</f:fields>
+						</f:FormElement>-->
+						<f:FormElement label="Loading Commenced At" >
+							<f:fields>
+								<DateTimePicker
+									value="{path:'/LodComncdAt', type:'sap.ui.model.type.DateTime', formatOptions: { style: 'medium', strictParsing: true}}"
+									change="handleChange" required="true" id="dtloading" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Loading Completed At">
+							<f:fields>
+								<DateTimePicker
+									value="{path:'/LodCompltAt', type:'sap.ui.model.type.DateTime', formatOptions: { style: 'medium', strictParsing: true}}"
+									change="handleChangeComplAt" required="true" id="dtloadingCom" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Vessel Sealed At">
+							<f:fields>
+								<DateTimePicker
+								    value="{path:'/VsslSldAt', type:'sap.ui.model.type.DateTime', formatOptions: { style: 'medium', strictParsing: true}}"
+									change="handleChangeSldAt" required="true" id="dtloadingVes" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Agent No">
+							<f:fields>
+								<!--<Input id="inpAgent" value="{AgentName}{Agent}" showValueHelp="true" -->
+								<Input id="inpAgent" value="{AgentName}" showValueHelp="true" 
+									valueHelpRequest="handleAgentValueHelp" required="true" liveChange="resetValueState" width="60%"/>
+								<!--<Input value="{Agent}"/>-->
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="ProductType">
+							<f:fields>
+								<!--<Input id="inpProdType" value="{PrdctTypeDesc} {PrdctType}" showValueHelp="true" -->
+								<Input id="inpProdType" value="{PrdctTypeDesc}" showValueHelp="true" 
+									valueHelpRequest="handleProductTypeValueHelp" required="true"
+								liveChange="resetValueState" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Terminal" >
+							<f:fields>
+								<!--<Input  value="{TerminalDesc} {Terminal}" showValueHelp="true" id="inpTerminal"-->
+								<Input  value="{TerminalDesc}" showValueHelp="true" id="inpTerminal"
+									valueHelpRequest="handleTerminalValueHelp" required="true" liveChange="resetValueState" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+				
+				<!--<f:FormContainer title="Tonnage Information">
+					<f:formElements>
+						<f:FormElement label="Gross Registered Tonnage">
+							<f:fields>
+								<Input value="{Grt}" editable="false" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+						<f:FormElement label="Summer DeadWeight">
+							<f:fields>
+								<Input value="{Sdwt}" editable="false" width="60%"/>
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>-->
+			</f:formContainers>
+		</f:Form>
+	
+		<Table id="idEditTable"
+			inset="false"
+			items="{HdrToItms}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="Cargo Detail Information" level="H2"/>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button  icon="sap-icon://add"  type="Emphasized" press="handleAddItemPress"></Button>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="auto">
+				<Text text="Partner" />
+			</Column>
+			<Column>
+				<Text text="Product" width="auto" />
+			</Column>
+			<!--<Column
+				minScreenWidth="Tablet" width="auto"
+				demandPopin="true">
+				<Text text="Destination" />
+				<footer> 
+					<Label text="Total" design="Bold">
+					</Label>
+				</footer>
+			</Column>-->
+			<Column width="auto">
+				<Text text="Destination" />
+				<footer> 
+					<Label text="Total" design="Bold">
+					</Label>
+				</footer>
+			</Column>
+			<Column
+				width="auto" id="idBarrelColumn">
+				<Text text="Barrels" />
+				<footer> 
+					<ObjectNumber id="idNumberBarrel" number="{totalModel>/Barrl}" >
+					</ObjectNumber>
+				</footer>
+			</Column>
+			<Column
+				width="auto" id="idLTonColumn">
+				<Text text="L Tons" />
+				<footer> 
+					<ObjectNumber id="idNumberLTon" number="{totalModel>/LTon}">
+					</ObjectNumber>
+				</footer>
+			</Column>
+			<Column
+				width="auto" id="idMTonColumn">
+				<Text text="M Tons" />
+				<footer> 
+					<ObjectNumber id="idNumberMTon" number="{totalModel>/MTon}">
+					</ObjectNumber>
+				</footer>
+			</Column>
+			<Column
+				width="auto" id="idAPIColumn">
+				<Text text="API" />
+				<!--<footer> 
+					<ObjectNumber id="idNumberAPI" number="{totalModel>/Api}">
+					</ObjectNumber>
+				</footer>-->
+			</Column>
+			<Column
+				hAlign="End" width="auto" id="idDensityColumn">
+				<Text text="Density" />
+				<!--<footer> 
+					<ObjectNumber id="idNumberDensity" number="{totalModel>/Dnsty}" >
+					</ObjectNumber>
+				</footer>-->
+			</Column>
+			<Column
+				hAlign="End" width="auto" >
+				<Text text="" />
+			</Column>
+		</columns>
+		<items>
+				<ColumnListItem>
+				<cells>
+					<!--<Input id="ipPartner"
+						value="{PrtnrName}({Prtnr})" showValueHelp="true" 
+									valueHelpRequest="handlePartnerValueHelp" />
+					<Input id="ipPrdct"
+						value="{PrdctName}({Prdct})" showValueHelp="true" 
+									valueHelpRequest="handleProductValueHelp"/>
+					<Input id="ipDestination"
+						value="{DestName}({Dest})"  showValueHelp="true" 
+									valueHelpRequest="handleDestinationValueHelp"/>-->
+					<Input id="ipPartner"
+						value="{PrtnrName}" showValueHelp="true" 
+									valueHelpRequest="handlePartnerValueHelp" />
+					<Input id="ipPrdct"
+						value="{PrdctName}" showValueHelp="true" 
+									valueHelpRequest="handleProductValueHelp"/>
+					<Input id="ipDestination"
+						value="{DestName}"  showValueHelp="true" 
+									valueHelpRequest="handleDestinationValueHelp"/>
+					
+					<Input id="ipBarrel" value="{Barrl}" liveChange="_calculateTotal" submit="_calculateTotal" change="_calculateTotal"/>
+					<Input id="ipLTon" value="{LTon}" liveChange="_calculateTotal" submit="_calculateTotal" change="_calculateTotal"/>
+					<Input id="ipMTon" value="{MTon}" liveChange="_calculateTotal" submit="_calculateTotal" change="_calculateTotal"/>
+					<Input id="ipApi" value="{Api}" liveChange="_calculateTotal" submit="_calculateTotal" change="_calculateTotal"/>
+					<Input id="ipDensity" value="{Dnsty}" liveChange="_calculateTotal" submit="_calculateTotal" change="_calculateTotal"/>
+					<!--<Input id="ipBarrel" value="{=parseFloat(parseFloat(${Barrl}).toFixed(2))}" liveChange="_calculateTotal" submit="_calculateTotal"/>-->
+					<!--<Input id="ipLTon" value="{=parseFloat(parseFloat(${LTon}).toFixed(6))}" liveChange="_calculateTotal" submit="_calculateTotal"/>
+					<Input id="ipMTon" value="{=parseFloat(parseFloat(${MTon}).toFixed(6))}" liveChange="_calculateTotal" submit="_calculateTotal" />
+					<Input id="ipApi" value="{=parseFloat(parseFloat(${Api}).toFixed(6))}" liveChange="_calculateTotal" submit="_calculateTotal"/>
+					<Input id="ipDensity" value="{=parseFloat(parseFloat(${Dnsty}).toFixed(6))}" liveChange="_calculateTotal" submit="_calculateTotal"/>-->
+					<Button icon="sap-icon://sys-cancel"  type="Reject" tooltip="Delete Item" press="handleItemCancelPress" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+		
+	<items/>
+	</VBox>
+		</content>
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button id="request" text="Save" type="Emphasized" press="onSavePress"/>
+					<Button id="clear" text="Cancel" type="Reject" press="handleCancelPress"/>
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</mvc:View>

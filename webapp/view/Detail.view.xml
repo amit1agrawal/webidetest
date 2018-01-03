@@ -1,0 +1,189 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:footerbar="sap.ushell.ui.footerbar"
+	controllerName="com.spc.fiori.controller.Detail">
+	<semantic:DetailPage id="page" navButtonPress="onNavBack" showNavButton="{device>/system/phone}" title="{i18n>detailTitle}"
+		busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:content>
+			<!--<ObjectHeader id="objectHeader" title="{VsslName}" number="{ path: 'Grt', formatter: '.formatter.currencyValue' }"-->
+			<ObjectHeader id="objectHeader" title="{=parseInt(${BolSerial},10)}"   number="{ path: 'TotLton', formatter: '.formatter.currencyValue' }"
+				numberUnit="{i18n>masterNumberUnit}">
+				<statuses>
+					<ObjectStatus text="{ path: 'Status', formatter: '.formatter.statusText' }" state="{ path: 'Status', formatter: '.formatter.statusValue' }"/>
+					<ObjectStatus
+						text="{ path: 'BolDate', type: 'sap.ui.model.type.DateTime', formatOptions: { pattern: 'MMMM d, y', strictParsing: false, relative: false } }"
+						state="None"/>
+				</statuses>
+				<attributes>
+				<!--	<ObjectAttribute title="Vessel Name" text="{Vssl}"/>-->
+					<ObjectAttribute title="Vessel Name" text="{VsslName}"/>
+					<!--<ObjectAttribute title="BoL No" text="{=parseInt(${BolSerial},10)}"/>-->
+					<ObjectAttribute title="Summer DeadWeight" text="{Sdwt}"/>
+					<ObjectAttribute title="Gross Registered Tonnage" text="{Grt}"/>
+					<ObjectAttribute title="Loading Commenced At"
+						text="{path: 'LodComncdAt', type: 'sap.ui.model.type.DateTime', formatOptions: { pattern: 'MMMM d, y', strictParsing: false, relative: false } }"/>
+					<ObjectAttribute title="Loading Completed At"
+						text="{ path: 'LodCompltAt', type: 'sap.ui.model.type.DateTime', formatOptions: { pattern: 'MMMM d, y', strictParsing: false, relative: false } }"/>
+					<ObjectAttribute title="Vessel Sealed At"
+						text="{ path: 'VsslSldAt', type: 'sap.ui.model.type.DateTime', formatOptions: { pattern: 'MMMM d, y', strictParsing: false, relative: false } }"/>
+					<!--<ObjectAttribute title="BoL Date"
+						text="{ path: 'BolDate', type: 'sap.ui.model.type.DateTime', formatOptions: { pattern: 'MMMM d, y', strictParsing: false, relative: false } }"/>-->
+				</attributes>
+			</ObjectHeader>
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter id="iconTabBarFilter1" icon="sap-icon://hint" tooltip="{i18n>detailIconTabBarInfo}">
+						<ObjectHeader title="{TonnageInformation}" icon="sap-icon://inventory" iconDensityAware="false">
+							<attributes>
+								<ObjectAttribute title="Serial No" text="{SrNo}"/>
+								<ObjectAttribute title="Agent" text="{AgentName}({Agent})"/>
+								<ObjectAttribute title="Previous BoL No" text="{PrvsBolNo}"/>
+								<ObjectAttribute title="Product Type" text="{PrdctTypeDesc}"/>
+								<ObjectAttribute title="Terminal" text="{TerminalDesc}({Terminal})"/>
+								<!--<ObjectAttribute title="Carry Forward" text="{ path: 'Carryfwd', formatter: '.formatter.carryFwdText' }"/>-->
+								<!--<ObjectAttribute title="Summer DeadWeight Tonnage" text="{Sdwt} {i18n>detailLineItemWeightUnit}"/>-->
+							</attributes>
+						</ObjectHeader>
+					</IconTabFilter>
+					<!--<IconTabFilter
+						id="iconTabBarFilter2"
+						icon="sap-icon://attachment"
+						tooltip="{i18n>detailIconTabBarAttachments}">
+					</IconTabFilter>-->
+				</items>
+			</IconTabBar>
+			<Table id="lineItemsList" width="auto" items="{HdrToItms}" updateFinished="onListUpdateFinished"
+				noDataText="{i18n>detailLineItemTableNoDataText}" busyIndicatorDelay="{detailView>/lineItemTableDelay}" class="sapUiResponsiveMargin">
+				<headerToolbar>
+					<Toolbar id="lineItemsToolbar">
+						<Title id="lineItemsHeader" text="{detailView>/lineItemListTitle}"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column hAlign="End" width="auto">
+						<Text text="Product"/>
+					</Column>
+					<Column width="auto" hAlign="End">
+						<Text text="{i18n>detailLineItemTablePartnerColumn}"/>
+						<footer> 
+							<Label text="Total">
+							</Label>
+						</footer>
+					</Column>
+					<Column width="auto" hAlign="End" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" >
+						<Text text="{i18n>detailLineItemTableDestinationColumn}"/>
+					</Column>
+					<Column width="auto" hAlign="End" id="idBarrelColumn" >
+						<Text text="{i18n>detailLineItemTableBarrelsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberBarrel" number="" >
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column width="auto" hAlign="End" id="idLTonColumn" >
+						<Text text="{i18n>detailLineItemTableLTonsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberLTon" number="">
+							<!--unit="{i18n>detailLineItemWeightUnit}"-->
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column width="auto" hAlign="End" id="idMTonColumn">
+						<Text text="{i18n>detailLineItemTableMTonsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberMTon" number="">
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column width="auto" hAlign="End" id="idAPIColumn" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" >
+						<Text text="{i18n>detailLineItemTableAPIColumn}"/>
+					</Column>
+					<Column width="auto" hAlign="End" id="idDensityColumn" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline" >
+						<Text text="{i18n>detailLineItemTableDensityColumn}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<!--<Text text="{PrdctName}({Prdct})"/>
+							<Text text="{PrtnrName}({Prtnr})"/>
+							<Text text="{DestName}({Dest})"/>-->
+							<Text text="{PrdctName}"/>
+							<Text text="{PrtnrName}"/>
+							<Text text="{DestName}"/>
+							<ObjectNumber number="{=parseFloat(parseFloat(${Barrl}).toFixed(2))}"/>
+							<ObjectNumber number="{=parseFloat(parseFloat(${LTon}).toFixed(3))}" />
+							<!--unit="{i18n>detailLineItemWeightUnit}"-->
+							<ObjectNumber number="{=parseFloat(parseFloat(${MTon}).toFixed(3))}"/>
+							<ObjectNumber number="{=parseFloat(parseFloat(${Api}).toFixed(6))}" />
+							<ObjectNumber number="{=parseFloat(parseFloat(${Dnsty}).toFixed(6))}" />
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<semantic:editAction>
+			<semantic:EditAction press="onEditButtonPress" enabled="{path:'Status', formatter:'.formatter.editValue'}"/>
+		</semantic:editAction>
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>
+		</semantic:sendEmailAction>
+		<semantic:shareInJamAction>
+			<semantic:ShareInJamAction id="shareInJam" visible="{FLP>/isShareInJamActive}" press="onShareInJamPress"/>
+		</semantic:shareInJamAction>
+		<semantic:saveAsTileAction>
+			<footerbar:AddBookmarkButton id="shareTile" title="{detailView>/saveAsTileTitle}"/>
+		</semantic:saveAsTileAction>
+	</semantic:DetailPage>
+</mvc:View>
+
+
+<!--<columns>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="Product"/>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTablePartnerColumn}"/>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableDestinationColumn}"/>
+						<footer> 
+							<Label text="Total">
+							</Label>
+						</footer>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableBarrelsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberBarrel" number="" >
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableLTonsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberLTon" number="">
+							
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableMTonsColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberMTon" number="">
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableAPIColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberAPI" number="">
+							</ObjectNumber>
+						</footer>
+					</Column>
+					<Column demandPopin="true" minScreenWidth="Tablet" hAlign="End">
+						<Text text="{i18n>detailLineItemTableDensityColumn}"/>
+						<footer> 
+							<ObjectNumber id="idNumberDensity" number="">
+							</ObjectNumber>
+						</footer>
+					</Column>
+				</columns>-->

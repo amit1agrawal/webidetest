@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No Terminal Found"
+        title="Select Terminal"
+        search="handleTerminalSearch"
+        confirm="handleTerminalDialogClose"
+        items="{TerminalListModel>/}" >
+        <StandardListItem
+            title="{TerminalListModel>TermTxt}"
+            description="{TerminalListModel>Term}"
+            type="Active"/>
+    </SelectDialog>
+</core:FragmentDefinition>

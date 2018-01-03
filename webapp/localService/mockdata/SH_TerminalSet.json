@@ -1,0 +1,71 @@
+[{
+	"Terminal": "Terminal 1",
+	"TerminalDesc": "TerminalDesc 1",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%201')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 2",
+	"TerminalDesc": "TerminalDesc 2",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%202')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 3",
+	"TerminalDesc": "TerminalDesc 3",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%203')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 4",
+	"TerminalDesc": "TerminalDesc 4",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%204')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 5",
+	"TerminalDesc": "TerminalDesc 5",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%205')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 6",
+	"TerminalDesc": "TerminalDesc 6",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%206')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 7",
+	"TerminalDesc": "TerminalDesc 7",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%207')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 8",
+	"TerminalDesc": "TerminalDesc 8",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%208')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 9",
+	"TerminalDesc": "TerminalDesc 9",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%209')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}, {
+	"Terminal": "Terminal 10",
+	"TerminalDesc": "TerminalDesc 10",
+	"__metadata": {
+		"uri": "SH_TerminalSet('Terminal%2010')",
+		"type": "ZBOL_SRV.SH_Terminal"
+	}
+}]

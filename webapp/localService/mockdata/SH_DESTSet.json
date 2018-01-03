@@ -1,0 +1,71 @@
+[{
+	"Land1": "Land1 1",
+	"Landx": "Landx 1",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%201')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 2",
+	"Landx": "Landx 2",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%202')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 3",
+	"Landx": "Landx 3",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%203')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 4",
+	"Landx": "Landx 4",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%204')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 5",
+	"Landx": "Landx 5",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%205')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 6",
+	"Landx": "Landx 6",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%206')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 7",
+	"Landx": "Landx 7",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%207')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 8",
+	"Landx": "Landx 8",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%208')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 9",
+	"Landx": "Landx 9",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%209')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}, {
+	"Land1": "Land1 10",
+	"Landx": "Landx 10",
+	"__metadata": {
+		"uri": "SH_DESTSet('Land1%2010')",
+		"type": "ZBOL_SRV.SH_DEST"
+	}
+}]

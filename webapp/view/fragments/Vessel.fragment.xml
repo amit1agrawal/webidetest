@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No Vessel Found"
+        title="Select Vessel"
+        search="handleSearchVessel"
+        confirm="handleVesselDialogClose"
+        items="{VesselListModel>/}" >
+        <StandardListItem
+            title="{VesselListModel>Ltext}"
+            description="{VesselListModel>ShipCode}"
+            type="Active"/>
+    </SelectDialog>
+</core:FragmentDefinition>

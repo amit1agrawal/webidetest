@@ -1,0 +1,99 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form">
+    <Dialog title="Add Cargo Details">
+    	<content>
+    		<VBox class="sapUiSmallMargin">
+				<f:SimpleForm id="SimpleFormChange354"
+					editable="true"
+					layout="ResponsiveGridLayout"
+					title=""
+					labelSpanXL="3"
+					labelSpanL="3"
+					labelSpanM="3"
+					labelSpanS="12"
+					adjustLabelSpan="false"
+					emptySpanXL="4"
+					emptySpanL="4"
+					emptySpanM="4"
+					emptySpanS="0"
+					columnsXL="1"
+					columnsL="1"
+					columnsM="1"
+					singleContainerFullSize="true" >
+					<f:content>
+						<Label text="Product" />
+					<!--	<Input id="inpProduct" value="{PrdctName}" showValueHelp="true" 
+									valueHelpRequest="handleProductValueHelp"/>-->
+									<!--Code Added By Rabi -->
+									<Input id="inpProduct" value="{PrdctName}" showValueHelp="true" 
+									valueHelpRequest="handleProductValueHelp" showSuggestion="true" suggest="handleProductSuggest"  suggestionItems="{default>/SH_PROD_PART_CMPSet}" 
+								    	suggestionItemSelected="onProductSuggestedItemSelected">
+										<suggestionItems>
+										<core:ListItem text="{default>PrdctName}" additionalText="{default>Prdct}" />
+										</suggestionItems>
+							</Input>
+								<!--Code Ended By Rabi -->	
+										
+						<Label text="Partner" />
+						<Input id="inpPartner" value="{PrtnrName}" showValueHelp="true" 
+									valueHelpRequest="handlePartnerValueHelp"/>
+						<Label text="Destination"  />
+						<Input id="inpDestination" value="{DestName}" showValueHelp="true" 
+									valueHelpRequest="handleDestinationValueHelp"/>
+						
+						
+						<Label text="Barrels" />
+						<Input id="inpBarrels" value="{Barrl}" type="Number">
+							<layoutData>
+								<l:GridData span="XL1 L2 M2 S4" />
+							</layoutData>
+						</Input>
+						<!--<MaskInput id="inpBarrels" value="{Barrl}" mask = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+							<rules>
+								<MaskInputRule maskFormatSymbol = "~" regex = "[.0-9]"/>
+							</rules>
+							<layoutData>
+								<l:GridData span="XL1 L2 M2 S4" />
+							</layoutData>
+						</MaskInput>-->
+						<Label text="L Tons"   />
+						<Input id="inpLTons" value="{LTon}" type="Number"/>
+						<!--<MaskInput id="inpLTons" value="{LTon}" mask = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+							<rules>
+								<MaskInputRule maskFormatSymbol = "~" regex = "[.0-9]"/>
+							</rules>
+						</MaskInput>-->
+						<Label text="M Tons" />
+						<Input id="inpMTon" value="{MTon}" type="Number" liveChange="onMTonChange"/>
+					<!--	<MaskInput id="inpMTon" value="{MTon}" mask = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" change="onMTonChange">
+							<rules>
+								<MaskInputRule maskFormatSymbol = "~" regex = "[.0-9]"/>
+							</rules>
+						</MaskInput>-->
+						<Label text="API" />
+						<Input id="inpAPI" value="{Api}" type="Number"/>
+					<!--	<MaskInput id="inpAPI" value="{Api}" mask = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+							<rules>
+								<MaskInputRule maskFormatSymbol = "~" regex = "[.0-9]"/>
+							</rules>
+						</MaskInput>-->
+						<Label text="Density"/>
+						<Input id="inpDensity" value="{Dnsty}" type="Number"/>
+						<!--<MaskInput id="inpDensity" value="{Dnsty}" mask = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+							<rules>
+								<MaskInputRule maskFormatSymbol = "~" regex = "[.0-9]"/>
+							</rules>
+						</MaskInput>-->
+					</f:content>
+				</f:SimpleForm>
+			</VBox>
+    	</content>
+    	<buttons>
+    		<Button text="Add" press="onCloseDialog"/>
+        	<Button text="Cancel" press="onCancelDialog"/>
+    	</buttons>
+    </Dialog>
+</core:FragmentDefinition>

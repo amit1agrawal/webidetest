@@ -1,0 +1,71 @@
+[{
+	"Prdct": "Prdct 1",
+	"PrdctName": "PrdctName 1",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%201')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 2",
+	"PrdctName": "PrdctName 2",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%202')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 3",
+	"PrdctName": "PrdctName 3",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%203')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 4",
+	"PrdctName": "PrdctName 4",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%204')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 5",
+	"PrdctName": "PrdctName 5",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%205')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 6",
+	"PrdctName": "PrdctName 6",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%206')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 7",
+	"PrdctName": "PrdctName 7",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%207')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 8",
+	"PrdctName": "PrdctName 8",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%208')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 9",
+	"PrdctName": "PrdctName 9",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%209')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}, {
+	"Prdct": "Prdct 10",
+	"PrdctName": "PrdctName 10",
+	"__metadata": {
+		"uri": "SH_PRODSet('Prdct%2010')",
+		"type": "ZBOL_SRV.SH_PROD"
+	}
+}]

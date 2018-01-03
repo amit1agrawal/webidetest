@@ -1,0 +1,91 @@
+[{
+	"Vssl": "Vssl 1",
+	"VsslName": "VsslName 1",
+	"Grt": 6906.4,
+	"Sdwt": 118.88,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%201')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 2",
+	"VsslName": "VsslName 2",
+	"Grt": 7464.55,
+	"Sdwt": 2105.83,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%202')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 3",
+	"VsslName": "VsslName 3",
+	"Grt": 4752.28,
+	"Sdwt": 8341.55,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%203')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 4",
+	"VsslName": "VsslName 4",
+	"Grt": 2701.53,
+	"Sdwt": 1069.45,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%204')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 5",
+	"VsslName": "VsslName 5",
+	"Grt": 9280.44,
+	"Sdwt": 1270.16,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%205')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 6",
+	"VsslName": "VsslName 6",
+	"Grt": 7969.1,
+	"Sdwt": 2058.23,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%206')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 7",
+	"VsslName": "VsslName 7",
+	"Grt": 3483.01,
+	"Sdwt": 6256.89,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%207')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 8",
+	"VsslName": "VsslName 8",
+	"Grt": 2293.43,
+	"Sdwt": 8973.61,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%208')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 9",
+	"VsslName": "VsslName 9",
+	"Grt": 3371.58,
+	"Sdwt": 7623.37,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%209')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}, {
+	"Vssl": "Vssl 10",
+	"VsslName": "VsslName 10",
+	"Grt": 9525.62,
+	"Sdwt": 1250.82,
+	"__metadata": {
+		"uri": "SH_VSSLSet('Vssl%2010')",
+		"type": "ZBOL_SRV.SH_VSSL"
+	}
+}]

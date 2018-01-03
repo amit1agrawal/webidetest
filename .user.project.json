@@ -1,0 +1,60 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/test.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "sap-client",
+          "paramValue": "410"
+        }
+      ],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "GW6",
+          "destinations": "GW6"
+        }
+      ],
+      "_metadata": {
+        "id": 8908036,
+        "runnerId": "webapprunner",
+        "displayName": "Run test.html",
+        "lastRunTimeStamp": 1513237180237
+      }
+    },
+    {
+      "filePath": "/webapp/Component.js",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "sap-client",
+          "paramValue": "410"
+        }
+      ],
+      "hashParameter": "BillOfLadings-display",
+      "backendSystem": [
+        {
+          "source": "GW6",
+          "destinations": "GW6"
+        }
+      ],
+      "_metadata": {
+        "id": 2706196,
+        "runnerId": "fiorirunner",
+        "displayName": "Run Component.js",
+        "lastRunTimeStamp": 1510221615680
+      }
+    }
+  ]
+}

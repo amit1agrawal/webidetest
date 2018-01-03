@@ -1,0 +1,15 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No Destination Found"
+        title="Select Destination"
+        search="handleSearchDes"
+        confirm="handleDestinationDialogClose"
+        items="{DestinationListModel>/}" >
+        <StandardListItem
+            title="{DestinationListModel>Landx}" 
+            description="{DestinationListModel>Land1}"
+            type="Active"/>
+    </SelectDialog>
+</core:FragmentDefinition>

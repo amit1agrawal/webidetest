@@ -1,0 +1,91 @@
+[{
+	"Terminal": "Terminal 1",
+	"ProdType": "ProdType 1",
+	"Prdct": "Prdct 1",
+	"Prtnr": "Prtnr 1",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%201',ProdType='ProdType%201')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 2",
+	"ProdType": "ProdType 2",
+	"Prdct": "Prdct 2",
+	"Prtnr": "Prtnr 2",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%202',ProdType='ProdType%202')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 3",
+	"ProdType": "ProdType 3",
+	"Prdct": "Prdct 3",
+	"Prtnr": "Prtnr 3",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%203',ProdType='ProdType%203')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 4",
+	"ProdType": "ProdType 4",
+	"Prdct": "Prdct 4",
+	"Prtnr": "Prtnr 4",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%204',ProdType='ProdType%204')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 5",
+	"ProdType": "ProdType 5",
+	"Prdct": "Prdct 5",
+	"Prtnr": "Prtnr 5",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%205',ProdType='ProdType%205')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 6",
+	"ProdType": "ProdType 6",
+	"Prdct": "Prdct 6",
+	"Prtnr": "Prtnr 6",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%206',ProdType='ProdType%206')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 7",
+	"ProdType": "ProdType 7",
+	"Prdct": "Prdct 7",
+	"Prtnr": "Prtnr 7",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%207',ProdType='ProdType%207')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 8",
+	"ProdType": "ProdType 8",
+	"Prdct": "Prdct 8",
+	"Prtnr": "Prtnr 8",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%208',ProdType='ProdType%208')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 9",
+	"ProdType": "ProdType 9",
+	"Prdct": "Prdct 9",
+	"Prtnr": "Prtnr 9",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%209',ProdType='ProdType%209')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}, {
+	"Terminal": "Terminal 10",
+	"ProdType": "ProdType 10",
+	"Prdct": "Prdct 10",
+	"Prtnr": "Prtnr 10",
+	"__metadata": {
+		"uri": "SH_PROD_PART_CMPSet(Terminal='Terminal%2010',ProdType='ProdType%2010')",
+		"type": "ZBOL_SRV.SH_PROD_PART_CMP"
+	}
+}]

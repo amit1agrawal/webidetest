@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <SelectDialog
+        noDataText="No BoL Found"
+        title="Select BoL"
+        search="handleSearch"
+        confirm="handleBoLDialogClose"
+        items="{BoLListModel>/}" >
+        <StandardListItem
+            title="{BoLListModel>BolSerial} "
+            type="Active"/>
+    </SelectDialog>
+</core:FragmentDefinition>

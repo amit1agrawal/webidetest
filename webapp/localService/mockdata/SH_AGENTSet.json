@@ -1,0 +1,81 @@
+[{
+	"Partner": "Partner 1",
+	"NameOrg1": "NameOrg1 1",
+	"NameOrg2": "NameOrg2 1",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%201')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 2",
+	"NameOrg1": "NameOrg1 2",
+	"NameOrg2": "NameOrg2 2",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%202')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 3",
+	"NameOrg1": "NameOrg1 3",
+	"NameOrg2": "NameOrg2 3",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%203')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 4",
+	"NameOrg1": "NameOrg1 4",
+	"NameOrg2": "NameOrg2 4",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%204')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 5",
+	"NameOrg1": "NameOrg1 5",
+	"NameOrg2": "NameOrg2 5",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%205')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 6",
+	"NameOrg1": "NameOrg1 6",
+	"NameOrg2": "NameOrg2 6",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%206')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 7",
+	"NameOrg1": "NameOrg1 7",
+	"NameOrg2": "NameOrg2 7",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%207')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 8",
+	"NameOrg1": "NameOrg1 8",
+	"NameOrg2": "NameOrg2 8",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%208')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 9",
+	"NameOrg1": "NameOrg1 9",
+	"NameOrg2": "NameOrg2 9",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%209')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}, {
+	"Partner": "Partner 10",
+	"NameOrg1": "NameOrg1 10",
+	"NameOrg2": "NameOrg2 10",
+	"__metadata": {
+		"uri": "SH_AGENTSet('Partner%2010')",
+		"type": "ZBOL_SRV.SH_AGENT"
+	}
+}]
